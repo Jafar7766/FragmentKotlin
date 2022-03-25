@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F5F50C"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".FragmentActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_first"
+        android:layout_gravity="center"
+        android:text="Fragment one"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <Button
+        android:id="@+id/b_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send to Second">
+
+    </Button>
+
+</LinearLayout>
+
+</FrameLayout>
